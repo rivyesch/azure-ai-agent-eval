@@ -46,3 +46,21 @@ ENV/
 
 # Local development
 *.local
+
+# Private data
+private/
+
+# Evaluation data
+evaluation_data.jsonl
+evaluation_input_data.jsonl
+test_evaluation_data
+
+# Notebook checkpoints
+*/.ipynb_checkpoints/*
+
+# Local development
+.local/
+
+# System Files
+.DS_Store
+Thumbs.db
